@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "dev:build": "webpack-dev-server --config ./webpack.dev.config.js",
+    "dev:build": "env-cmd -f .env/dev.env webpack-dev-server --config ./webpack.dev.config.js",
     "prod:build": "env-cmd -f .env/prod.env webpack --config ./webpack.prod.config.js",
     "dev": "yarn dev:build"
   },
