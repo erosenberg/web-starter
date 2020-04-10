@@ -2,7 +2,6 @@ const webpack = require('webpack');
 const { merge, concat } = require('lodash');
 const autoprefixer = require('autoprefixer');
 const path = require('path');
-const magicImporter = require('node-sass-magic-importer');
 
 // plugins
 const HtmlWebpackPlugin = require('html-webpack-plugin');
